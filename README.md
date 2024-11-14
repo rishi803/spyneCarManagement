@@ -1,3 +1,6 @@
+### LIVE Link: https://spynecarmanagement.netlify.app/
+### Requirements: Please signup/login to see the home page
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
