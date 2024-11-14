@@ -355,7 +355,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                 onSubmit={isEditing ? handleUpdateCar : handleAddCar}
                 className="form-container"
               >
-                <div className="input-group">
+                <div className="input-group -mb-2">
                   <label className="floating-label">Title</label>
                   <input
                     type="text"
@@ -369,7 +369,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   />
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-3">
                   <label className="floating-label">Description</label>
                   <textarea
                     placeholder="Description"
@@ -382,7 +382,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   ></textarea>
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-2">
                   <label className="floating-label">Price</label>
                   <input
                     type="number"
@@ -396,7 +396,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   />
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-2">
                   <label className="floating-label">Model</label>
                   <input
                     type="text"
@@ -410,7 +410,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   />
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-2">
                   <label className="floating-label">Car Type</label>
                   <input
                     type="text"
@@ -424,7 +424,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   />
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-2">
                   <label className="floating-label">Company</label>
                   <input
                     type="text"
@@ -438,7 +438,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   />
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-2">
                   <label className="floating-label">Dealer</label>
                   <input
                     type="text"
@@ -452,7 +452,7 @@ const CarListingPage = ({ handleLogout, email }) => {
                   />
                 </div>
 
-                <div className="input-group">
+                <div className="input-group -mb-7">
                   <label className="floating-label">Tags</label>
                   <input
                     type="text"
